@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="MAIN MENU of CryptoIP!"
+        android:id="@+id/textviewmain"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Start Service"
+        android:id="@+id/buttonStartServiceMain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Stop Service"
+        android:id="@+id/buttonStopServiceMain"
+        android:layout_below="@+id/buttonStartServiceMain"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Make a Call"
+        android:id="@+id/buttonMakeCallMain"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/buttonStopServiceMain"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Add Contact"
+        android:id="@+id/buttonAddContactMain"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/buttonRemoveContactMain"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Remove Contact"
+        android:id="@+id/buttonRemoveContactMain"
+        android:layout_above="@+id/buttonInitialize"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Initialize"
+        android:id="@+id/buttonInitialize"
+        android:layout_above="@+id/buttonWebOfTrustMain"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="AddRemoteContact"
+        android:id="@+id/buttonAddRemote"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Web Of Trust"
+        android:id="@+id/buttonWebOfTrustMain"
+        android:layout_above="@+id/buttonAddRemote"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp" />
+
+</RelativeLayout>

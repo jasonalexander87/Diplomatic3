@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="MENU of AddContact CryptoIP!"
+        android:id="@+id/textviewAddContact"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Send Friend Request"
+        android:id="@+id/buttonAddRemoteContact"
+        android:layout_below="@+id/textviewAddContact"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextAddRemoteContact"
+        android:hint="contact Alias"
+        android:layout_marginBottom="34dp"
+        android:layout_above="@+id/buttonExitAddRemoteContact"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextMyAlias"
+        android:hint="My Alias"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="EXIT"
+        android:id="@+id/buttonExitAddRemoteContact"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

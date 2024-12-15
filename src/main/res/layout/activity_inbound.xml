@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Incoming Call"
+        android:id="@+id/textviewInboundCall"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="AnswerCall"
+        android:id="@+id/buttonAnswerCall"
+        android:layout_below="@+id/textviewInboundCall"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="IgnoreCall"
+        android:id="@+id/buttonIgnoreCall"
+        android:layout_below="@+id/buttonAnswerCall"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+
+</RelativeLayout>

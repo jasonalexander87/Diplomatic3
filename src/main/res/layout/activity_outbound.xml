@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="MENU of outboundCall CryptoIP!"
+        android:id="@+id/textviewOutboundCall"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="Make Call"
+        android:id="@+id/buttonMakeCall"
+        android:layout_marginBottom="82dp"
+        android:layout_alignBottom="@+id/buttonEndCall"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextContact"
+        android:hint="contact Alias"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/edittextIP"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextME"
+        android:hint="My Alias"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/edittextContact"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextIP"
+        android:hint="IP address"
+        android:layout_above="@+id/buttonMakeCall"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:text="EXIT"
+        android:id="@+id/buttonEndCall"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp" />
+</RelativeLayout>

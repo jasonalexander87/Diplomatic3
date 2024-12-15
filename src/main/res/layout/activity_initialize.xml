@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="MENU of INITIALIZE CryptoIP!"
+        android:id="@+id/textviewAddContact"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="ADD"
+        android:id="@+id/buttonAddIP"
+        android:layout_below="@+id/textviewAddContact"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Add Server List"
+        android:id="@+id/buttonAddServer"
+        android:layout_below="@+id/buttonAddIP"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextIP"
+        android:hint="IP"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/buttonAddServer"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextMyAlias"
+        android:hint="My Alias"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/edittextIP"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/edittextAlias"
+        android:hint="Alias"
+        android:layout_below="@+id/edittextMyAlias"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="EXIT"
+        android:id="@+id/buttonExitInitialize"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

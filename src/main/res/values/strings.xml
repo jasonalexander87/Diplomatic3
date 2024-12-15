@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CryptoVoIP</string>
+    <string name="sharedPrefs">CryptoVoIP</string>
+
+</resources>
